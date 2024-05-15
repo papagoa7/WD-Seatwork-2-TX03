@@ -87,7 +87,7 @@ WD-ProjectName
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ mudkip.gif
 |   └─ js
 |       └─ script.js
 └─ pages
