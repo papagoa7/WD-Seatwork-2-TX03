@@ -1,0 +1,55 @@
+h1 {
+    font-family: Courier;
+}
+
+body {
+    background-color: lightblue;
+    font-size: 15px;
+    padding: 5em;
+    font-family: Courier;
+    text-align: center;
+}
+
+.grid {
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    border-style: dotted;
+    border-radius: 5em;
+    display: grid;
+    grid-template-areas:
+    'pic personal-info'
+    'skills education';
+    gap: 5px;
+    padding: 50px;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.pic {
+    height: 20em;
+    width: 20em;
+}
+
+.personal-info {
+    padding-top: 10em;
+    grid-template-areas: personal-info;
+    text-align: left;
+    padding-left: 5em;
+}
+
+.education  {
+    padding-top: 5em;
+    grid-area: education;
+    text-align: left;
+    padding-left: 5em;
+}
+
+.sides {
+    padding-top: 5em;
+    text-align: left;
+    padding-left: 3em;
+}
